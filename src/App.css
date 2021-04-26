@@ -1,0 +1,59 @@
+.container {
+  max-width: 500px;
+  margin: 30px auto;
+  min-height: 300px;
+  border: 1px solid steelblue;
+  padding: 30px;
+  border-radius: 5px;
+}
+
+.btn {
+  background: #fff;
+  color: #000;
+  border: 1px solid steelblue;
+  padding: 10px 20px;
+  margin: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.btn:focus {
+  outline: none;
+}
+
+.btn:active {
+  transform: scale(0.98);
+}
+
+input {
+  width: 450px;
+  height: 35px;
+  margin: 5px;
+  border-radius: 5px;
+  font-size: 15px;
+  padding: 10px 20px;
+  border: 1px solid steelblue;
+}
+
+.equal {
+  margin: 5px;
+  font-size: 15px;
+  padding-left: 5px;
+  padding-bottom: 10px;
+}
+
+.result {
+  margin: 5px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 15px;
+  border: 1px solid steelblue;
+  cursor: not-allowed;
+  width: 450px;
+}
+
+.title {
+  margin: 5px;
+  color: cornflowerblue;
+}
